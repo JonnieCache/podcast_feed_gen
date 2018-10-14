@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <tag href="http://example.com/podcast/index.rss" rel="self" type="application/rss+xml">atom:link</tag>
+    <title>test feed</title>
+    <link>http://example.com/podcast/index.rss</link>
+    <description>lmao</description>
+    <language>en</language>
+    <pubDate>Thu, 11 Oct 2018 11:14:37 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Oct 2018 11:14:37 +0100</lastBuildDate>
+    <itunes:author>John Doe</itunes:author>
+    <itunes:owner>
+      <itunes:name>John Doe</itunes:name>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <item>
+      <title>Number Eleven</title>
+      <description>breakbeat 11.mp3</description>
+      <pubDate>Thu, 11 Oct 2018 11:14:37 +0100</pubDate>
+      <enclosure url="http://example.com/podcast/breakbeat 11.mp3" length="47628" type="audio/mpeg"/>
+      <link>http://example.com/podcast/breakbeat 11.mp3</link>
+      <guid isPermaLink="false">3ea5ae69f238082c137b4103054d4a63ab980d9786eb4a345d4f167e82ede0e7</guid>
+      <itunes:author>foobar</itunes:author>
+      <itunes:summary>breakbeat 11.mp3</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:02</itunes:duration>
+    </item>
+    <item>
+      <title>Number Twelve</title>
+      <description>this is the desc</description>
+      <pubDate>Thu, 11 Oct 2018 11:14:40 +0100</pubDate>
+      <enclosure url="http://example.com/podcast/breakbeat 12.mp3" length="47585" type="audio/mpeg"/>
+      <link>http://example.com/podcast/breakbeat 12.mp3</link>
+      <guid isPermaLink="false">33fa657f94266ece6ad5c8e18d15e93d0e4052e5e526c983be99e411bda01996</guid>
+      <itunes:author>Bar Foo</itunes:author>
+      <itunes:summary>this is the desc</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:02</itunes:duration>
+    </item>
+  </channel>
+</rss>

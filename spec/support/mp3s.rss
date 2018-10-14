@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <tag href="http://example.com/podcast/index.rss" rel="self" type="application/rss+xml">atom:link</tag>
+    <title>test feed</title>
+    <link>http://example.com/podcast/index.rss</link>
+    <description>lmao</description>
+    <language>en</language>
+    <pubDate>Thu, 11 Oct 2018 11:14:37 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Oct 2018 11:14:37 +0100</lastBuildDate>
+    <itunes:author>John Doe</itunes:author>
+    <itunes:owner>
+      <itunes:name>John Doe</itunes:name>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <item>
+      <title>bass 1.mp3</title>
+      <description>bass 1.mp3</description>
+      <pubDate>Thu, 11 Oct 2018 11:14:37 +0100</pubDate>
+      <enclosure url="http://example.com/podcast/bass 1.mp3" length="2924" type="audio/mpeg"/>
+      <link>http://example.com/podcast/bass 1.mp3</link>
+      <guid isPermaLink="false">c458e6732c302eee3ab156b4193d349b0390a34f2758bfba360ad55f7baaae45</guid>
+      <itunes:author>John Doe</itunes:author>
+      <itunes:summary>bass 1.mp3</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+    <item>
+      <title>bass 2.mp3</title>
+      <description>bass 2.mp3</description>
+      <pubDate>Thu, 11 Oct 2018 11:14:40 +0100</pubDate>
+      <enclosure url="http://example.com/podcast/bass 2.mp3" length="4178" type="audio/mpeg"/>
+      <link>http://example.com/podcast/bass 2.mp3</link>
+      <guid isPermaLink="false">be38ca19313b517d3f3c3c1aedc7470f5ce16d5c9269e40434c3358d8e69af1f</guid>
+      <itunes:author>John Doe</itunes:author>
+      <itunes:summary>bass 2.mp3</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+    </item>
+  </channel>
+</rss>

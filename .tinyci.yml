@@ -1,0 +1,8 @@
+builder:
+  class: ScriptBuilder
+  config:
+    command: docker build -t podcast_feed_gen .
+tester:
+  class: ScriptTester
+  config:
+    command: docker run podcast_feed_gen bundle exec rspec
