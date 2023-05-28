@@ -43,12 +43,9 @@ module PodcastFeedGen
             end if @config[:author]
             
             xml['itunes'].block 'no'
-            # xml['itunes'].category :text => 'Technology' do
-            #   xml['itunes'].category :text => 'Software How-To'
-            # end
-            # xml['itunes'].category :text => 'Education' do
-            #   xml['itunes'].category :text => 'Training'
-            # end
+            if @config[:category]
+              xml['itunes'].category :text => @config[:category]
+            end
 
             episodes.each do |episode|
               xml.item do
