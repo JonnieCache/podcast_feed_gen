@@ -33,7 +33,9 @@ module PodcastFeedGen
             xml.language 'en'
             xml.pubDate episodes.first[:date].rfc822
             xml.lastBuildDate episodes.first[:date].rfc822
+            xml.link @config[:link] if @config[:link]
             xml['itunes'].author @config[:author]
+            xml.copyright "Copyright #{Time.now.year} #{@config[:author]}" if @config[:copyright]
             xml['itunes'].keywords @config[:keywords] if @config[:keywords]
             xml['itunes'].explicit @config[:explicit] if @config[:explicit]
             # xml['itunes'].image :href => @config[:image_url]
