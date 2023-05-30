@@ -36,9 +36,11 @@ module PodcastFeedGen
             xml['itunes'].author @config[:author]
             xml['itunes'].keywords @config[:keywords] if @config[:keywords]
             xml['itunes'].explicit @config[:explicit] if @config[:explicit]
-            # xml['itunes'].image :href => @config[:image_url]
+            if @config[:image_url]
+              xml['itunes'].image :href => @config[:image_url]
+            end
             xml['itunes'].owner do
-              xml['itunes'].name @config[:author] if @config[:author]
+              xml['itunes'].name @config[:author]
               xml['itunes'].email @config[:email] if @config[:email]
             end if @config[:author]
             
@@ -61,6 +63,9 @@ module PodcastFeedGen
                 xml['itunes'].author episode[:author] || @config[:author]
                 xml['itunes'].summary episode[:description]
                 xml['itunes'].explicit 'no'
+                if episode[:cover_url]
+                  xml['itunes'].image :href => episode[:cover_url]
+                end
                 xml['itunes'].duration episode[:duration] if episode[:duration]
               end
             end
